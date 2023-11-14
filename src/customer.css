@@ -1,0 +1,41 @@
+.main-review {
+  margin-top: 5rem;
+  height: 80vh;
+  background-color:hsla(257, 31%, 85%, 0.496);
+}
+
+.head-card {
+    text-align: center;
+    padding: 5rem 0 0;
+    font-size: 1.5rem;
+}
+
+.outer-cards {
+width: 70%;
+margin: 0 0 0 12rem;
+
+}
+.review-card {
+  margin: 3rem 5rem 0 0;
+  height: 18rem;
+  border-radius: 8px;
+  width: 31rem;
+  padding: 2rem 1rem 10rem 2rem;
+  background-color: white;
+}
+
+.review-card div:first-child {
+  margin-bottom: 1rem;
+}
+
+.review-card > :nth-child(2) {
+  font-size: 1.2rem;
+  color: rgb(144, 140, 140);
+}
+
+.dash img {
+  height: 1px;
+  width: 40px;
+  background-color: rgb(184, 176, 176);
+  margin: 0 0 0.5rem 15rem;
+}

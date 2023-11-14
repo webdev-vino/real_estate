@@ -1,0 +1,81 @@
+
+.footer {
+    margin: 5rem 0 0 0;
+    height: 70vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+    gap: 7rem;
+}
+
+.footer-front {
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.footer-front img {
+    height: 110px;
+    width: 150px;
+
+}
+
+.footer-front p {
+    color: white;
+    line-height: 1.8;
+}
+
+.footer-front i {
+    background-color: white;
+    padding: .5rem;
+    font-size: 1.2rem;
+    color: rgb(0, 89, 255);
+    border-radius: 50%;
+}
+
+.footer-front i:hover {
+    color: white;
+    background-color: rgb(76, 0, 255);
+}
+
+.footer-icon {
+    margin: 2rem 0 0;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.quick-link {
+    color: white;
+    padding: 2rem 0 0 0;
+}
+
+.margin {
+    margin: 4rem 0 0 0;
+}
+
+.quick-link h1 {
+    margin: 0 0 2rem 0;
+}
+
+.quick-link li {
+    list-style-type: none;
+    line-height: 3.5;
+}
+
+.get-in-touch i {
+        color: rgb(98, 0, 255);
+        margin: 0 0.5rem 0 0;
+        font-size: 1.1rem;
+}
+
+.copy {
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 0 0 1rem 0;
+}

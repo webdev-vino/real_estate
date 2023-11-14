@@ -1,0 +1,45 @@
+
+.Nav {
+    width: 100%;
+} 
+.Navbar {
+    font-size: 1.1rem;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    margin:.5rem 8rem .5rem;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.Navbar li {
+    padding-right: 4rem;
+}
+.Navbar li:hover {
+    color: rgb(102, 0, 255);
+    cursor: pointer;
+}
+
+.Navbar button {
+    padding: 10px 45px;
+    border: 1px solid rgba(136, 0, 255, 0.792);
+    background-color:rgba(136, 0, 255, 0.792) ;
+    color: white;
+    border-radius: 4px;
+
+}
+
+.Navbar button:hover {
+    color:rgba(136, 0, 255, 0.792)  ;
+    background-color: white;
+    border:1px solid rgba(136, 0, 255, 0.792);
+}
+
+.Navbar li:nth-child(7) {
+    margin-left: auto;
+}
+
+.Navbar li:nth-child(2) {
+    margin-left: 7rem;
+}

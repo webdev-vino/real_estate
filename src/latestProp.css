@@ -1,0 +1,111 @@
+
+.top {
+    height: 190vh;
+    background-image: linear-gradient(to top,white, rgba(0, 140, 255, 0.238),white);
+}
+
+.head {
+    text-align: center;
+    margin: 2rem;
+    padding: 6rem 0 2rem 0;
+    font-size: 1.5rem;
+}
+.main{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin: 2rem 9rem;
+}
+
+.card-outline {
+    margin-bottom: 2rem; 
+    background-color: white;
+    border-radius: 10px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+}
+
+.img-div {
+    border: 2px solid white;
+    width: 100%;
+    height: 50%;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.img-div img {
+    transform: 0.8s;
+}
+.img-div img:hover {
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+.img-div img:not(:hover) {
+    transform: scale(1); 
+    transition: transform 1.5s; 
+  }
+
+.pop button {
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    padding: 5px 20px;
+    border-radius: 4px;
+    outline: none;
+    border-style: none;
+    background-color: rgb(255, 247, 0);
+}
+
+.pop p {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    font-size: 1.2rem;
+
+  
+}
+
+.pop p i {
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    color: rgb(89, 0, 255);
+}
+
+.img-div img {
+    width: 100%;
+    height: 16rem;
+    display: block;
+}
+
+.card-outline div:nth-child(2) {
+    padding-left: 1rem;
+    margin-top: 1rem;
+}
+
+.card-outline div:nth-child(2) h3 {
+    font-size: 2rem;
+}
+
+.rupee {
+    color: rgba(20, 112, 193, 0.755);
+}
+
+.location {
+    margin-top: 1rem;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.seen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    margin: 3rem 0 0 0;
+    border-top: 2px solid rgba(217, 217, 217, 0.629);
+    font-size: 1.3rem;
+    color: rgba(128, 128, 128, 0.904);
+}
